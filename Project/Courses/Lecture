@@ -1,0 +1,11 @@
+public class Lecture extends Course {
+    private String lectureId;
+
+    public Lecture(String courseId, String name) {
+        super(courseId, name);
+    }
+
+    public getLectureId() {
+        return lectureId;
+    }
+}
