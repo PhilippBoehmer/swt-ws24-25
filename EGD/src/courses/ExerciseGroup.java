@@ -1,21 +1,22 @@
+package courses;
 import java.util.ArrayList;
 import java.util.List;
-
+import users.Student;
 
 public class ExerciseGroup {
-    private String groupId;
+    private Integer groupId;
     private int maxCapacity;
     private String timeSlot;
     private List<Student> registeredStudents;
 
-    public ExerciseGroup(String groupId, int maxCapacity, String timeSlot) {
+    public ExerciseGroup(Integer groupId, int maxCapacity, String timeSlot) {
         this.groupId = groupId;
         this.maxCapacity = maxCapacity;
         this.timeSlot = timeSlot;
         this.registeredStudents = new ArrayList<>();
     }
-/*
-    public String getGroupId() {
+
+    public Integer getGroupId() {
         return groupId;
     }
 
@@ -38,6 +39,7 @@ public class ExerciseGroup {
             System.out.println("Group " + groupId + " is at full capacity.");
         }
     }
-    */
+    
 }
+
 
