@@ -1,0 +1,25 @@
+@startuml
+skinparam componentStyle rectangle
+
+' Define main components
+package "EGD System" {
+    [Frontend] 
+    [Authentication Service]
+    [Course Management Service]
+    [Course Distribution Service]
+    [Communication Service]
+}
+
+' Define external system
+[Klips System (External)] <<External>>
+
+' Define the interactions (provided/required interfaces)
+[Frontend] --> [Authentication Service] : AuthenticateUser
+[Frontend] --> [Course Management Service] : ViewCourses
+[Frontend] --> [Course Distribution Service] : GetDistributionResults
+[Course Management Service] --> [Klips System (External)] : FetchCourseData (KlipsData)
+[Course Distribution Service] --> [Course Management Service] : CourseDetails
+[Course Distribution Service] --> [Communication Service] : Notify
+[Communication Service] --> [Frontend] : SendNotification
+
+@enduml
