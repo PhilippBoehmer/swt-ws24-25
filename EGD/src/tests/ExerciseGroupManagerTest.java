@@ -2,7 +2,7 @@ package tests;
 
 import static org.junit.jupiter.api.Assertions.*;
 import org.junit.jupiter.api.Test;
-import courses.ExerciseGroupManager;
+import logic.ExerciseGroupManager;
 
 public class ExerciseGroupManagerTest {
 
