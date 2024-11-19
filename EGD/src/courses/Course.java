@@ -1,13 +1,15 @@
+package courses;
+
 public class Course {
-    private String courseId;
+    private Integer courseId;
     private String name;
 
-    public Course(String courseId, String name) {
+    public Course(Integer courseId, String name) {
         this.courseId = courseId;
         this.name = name;
     }
 
-    public String getCourseId() {
+    public Integer getCourseId() {
         return courseId;
     }
 
@@ -15,3 +17,4 @@ public class Course {
         return name;
     }
 }
+

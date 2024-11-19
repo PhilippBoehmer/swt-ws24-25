@@ -1,3 +1,5 @@
+package logic;
+
 import java.util.*;
 import java.util.function.Predicate;
 
@@ -12,7 +14,7 @@ public class EntityManager<T> {
         entities.add(entity);
     }
 
-    public T getEntityById(String id, Predicate<T> predicate) {
+    public T getEntityById(Integer id, Predicate<T> predicate) {
         for (T entity : entities) {
             if (predicate.test(entity)) {
                 return entity;
@@ -25,3 +27,4 @@ public class EntityManager<T> {
         return entities;
     }
 }
+

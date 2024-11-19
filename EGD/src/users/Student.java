@@ -1,10 +1,13 @@
+package users;
+
+import courses.ExerciseGroup;
 import java.util.ArrayList;
 import java.util.List;
 
 public class Student extends User {
     private List<ExerciseGroup> registeredGroups;
 
-    public Student(String id, String firstName, String lastName) {
+    public Student(Integer id, String firstName, String lastName) {
         super(id, firstName, lastName);
         this.registeredGroups = new ArrayList<>();
     }
@@ -21,4 +24,6 @@ public class Student extends User {
     public List<ExerciseGroup> getRegisteredGroups() {
         return registeredGroups;
     }
+
 }
+
