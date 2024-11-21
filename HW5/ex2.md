@@ -15,3 +15,11 @@
 | **Input \( c \)**| 5       | 5       | 0       | minInt  | 5       | 5       | 1       |
 | **Expected Output**  | 0       | 0       | Exception | 0       | 0       | Exception | 1       |
 | **Result**           | 0       | 0       | Exception | 0       | 0       | Exception | 1       |
+
+---------------------------------------------------------------------
+
+| **Parameters**   | **Description** |
+|------------------|---------|
+|  a      | Refers to the totalStudents parameter (number of students to assign)       |
+|  b      |  Refers to the groupSize parameter (number of students per group)       |
+|  c      |  Refers to the availableGroups parameter (number of groups available)       |
