@@ -12,6 +12,7 @@ See PDFs and code for correction notes.
 | Homework 1 | 4/4      | 5/6      | 5/5     | 5/5   | -     | 19/20    |
 | Homework 2 | 4.25/4.5 | 4.25/4.5 | 5.75/6  | 5/5   | -     | 19.25/20 |
 | Homework 3 | 6.5/8    | 5.5/5.5  | 6.5/6.5 | -     | -     | 18.5/20  |
+| Homework 4 | 5/5      | 4.5/5    | 6/7     | 3/3   | -     | 18.5/20  |
 
 - **Homework 1:**
   - Ex. 1
