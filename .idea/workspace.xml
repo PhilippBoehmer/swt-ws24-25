@@ -5,7 +5,44 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4291d745-fa49-4fb0-82ac-fe3861ba60c8" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/swt-ws24-25.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/swt-ws24-25.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homework-7/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/code_review_analysis/Author.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/code_review_analysis/AuthorList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/code_review_analysis/AuthorListParser$Token.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/code_review_analysis/AuthorListParser.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/code_review_analysis/BibEntry.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/code_review_analysis/CitationKeyBasedFileFinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/code_review_analysis/CitationKeyGenerator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/code_review_analysis/FileFinder.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/code_review_analysis/FileHelper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/code_review_analysis/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/code_review_analysis/StringUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/courses/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/courses/ExerciseGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/courses/Lecture.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/debugger/Items.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/debugger/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/debugger/Main2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/debugger/Month.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/debugger/MonthPoem$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/debugger/MonthPoem.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/debugger/ShoppingBasket.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/homework_mockito/Course.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/homework_mockito/ExerciseGroup.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/homework_mockito/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/homework_mockito/StudentManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/homework_mockito/StudentManagerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/logic/EntityManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/logic/ExerciseGroupManager.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/main/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/tests/ExerciseGroupManagerTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/users/Lecturer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/users/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/swt-ws24-25/users/User.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,7 +52,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="main" />
+        <entry key="$PROJECT_DIR$" value="hw6ex2clone" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -36,15 +73,16 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;hw6ex2clone&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
     &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/1337p/IdeaProjects/swt-ws24-25/homework-7&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
@@ -62,6 +100,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Homework7Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
+      <module name="homework-7" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.homework7.Homework7Application" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -75,6 +120,8 @@
       <workItem from="1733169549551" duration="2939000" />
       <workItem from="1733768613889" duration="356000" />
       <workItem from="1733768991149" duration="395000" />
+      <workItem from="1736078403340" duration="336000" />
+      <workItem from="1736078778904" duration="2433000" />
     </task>
     <servers />
   </component>
