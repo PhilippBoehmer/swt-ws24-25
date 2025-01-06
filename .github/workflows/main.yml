@@ -23,21 +23,21 @@ jobs:
         uses: actions/cache@v3
         with:
           path: ~/.m2/repository
-          key: ${{ runner.os }}-maven-${{ hashFiles('**/pom.xml') }}
+          key: ${{ runner.os }}-maven-${{ hashFiles('swt-ws24-25/homework-7/**/pom.xml') }}
           restore-keys: |
             ${{ runner.os }}-maven-
 
       - name: Install dependencies
-        run: mvn install -DskipTests
+        run: mvn install -DskipTests -f swt-ws24-25/homework-7/pom.xml
 
       - name: Run tests
-        run: mvn test
+        run: mvn test -f swt-ws24-25/homework-7/pom.xml
 
       - name: Generate JaCoCo report
-        run: mvn jacoco:report
+        run: mvn jacoco:report -f swt-ws24-25/homework-7/pom.xml
 
       - name: Upload coverage report
         uses: actions/upload-artifact@v3
         with:
           name: jacoco-report
-          path: target/site/jacoco
+          path: swt-ws24-25/homework-7/target/site/jacoco
