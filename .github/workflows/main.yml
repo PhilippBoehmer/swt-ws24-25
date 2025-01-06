@@ -28,16 +28,16 @@ jobs:
             ${{ runner.os }}-maven-
 
       - name: Install dependencies
-        run: mvn install -DskipTests -f swt-ws24-25/homework-7/pom.xml
+        run: mvn install -DskipTests -f /homework-7/pom.xml
 
       - name: Run tests
-        run: mvn test -f swt-ws24-25/homework-7/pom.xml
+        run: mvn test -f /homework-7/pom.xml
 
       - name: Generate JaCoCo report
-        run: mvn jacoco:report -f swt-ws24-25/homework-7/pom.xml
+        run: mvn jacoco:report -f /homework-7/pom.xml
 
       - name: Upload coverage report
         uses: actions/upload-artifact@v3
         with:
           name: jacoco-report
-          path: swt-ws24-25/homework-7/target/site/jacoco
+          path: /homework-7/target/site/jacoco
