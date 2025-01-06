@@ -28,7 +28,7 @@ jobs:
             ${{ runner.os }}-maven-
 
       - name: Install dependencies
-        run: mvn install -DskipTests -f /homework-7/pom.xml
+        run: mvn install -DskipTests -f swt-ws24-25/homework-7/pom.xml
 
       - name: Run tests
         run: mvn test -f /homework-7/pom.xml
