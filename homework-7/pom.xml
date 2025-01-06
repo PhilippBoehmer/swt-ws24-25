@@ -26,7 +26,8 @@
         <url/>
     </scm>
     <properties>
-        <java.version>23</java.version>
+        <!-- Set Java version to 20 -->
+        <java.version>20</java.version>
     </properties>
     <dependencies>
         <dependency>
@@ -58,9 +59,21 @@
     </dependencies>
     <build>
         <plugins>
+            <!-- Spring Boot Maven Plugin -->
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+
+            <!-- Maven Compiler Plugin to specify Java version -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.10.1</version> <!-- Use a version that supports Java 20 -->
+                <configuration>
+                    <source>20</source>
+                    <target>20</target>
+                </configuration>
             </plugin>
         </plugins>
     </build>

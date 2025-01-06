@@ -4,14 +4,26 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4291d745-fa49-4fb0-82ac-fe3861ba60c8" name="Changes" comment="feat: hw9ex1">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="4291d745-fa49-4fb0-82ac-fe3861ba60c8" name="Changes" comment="fix: refactoring and reinstalling maven">
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework-7/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/homework-7/src/main/java/com/example/homework7/HomeController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/homework-7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homework-7/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
@@ -66,17 +78,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Homework7Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <module name="homework-7" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.homework7.Homework7Application" />
@@ -102,6 +103,7 @@
       <workItem from="1736081554642" duration="1863000" />
       <workItem from="1736085634804" duration="923000" />
       <workItem from="1736091823836" duration="640000" />
+      <workItem from="1736163955725" duration="2354000" />
     </task>
     <task id="LOCAL-00001" summary="fix: refactoring and reinstalling maven">
       <option name="closed" value="true" />
