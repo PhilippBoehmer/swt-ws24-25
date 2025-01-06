@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4291d745-fa49-4fb0-82ac-fe3861ba60c8" name="Changes" comment="fix: refactoring and reinstalling maven">
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework-7/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/homework-7/src/main/java/com/example/homework7/HomeController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="4291d745-fa49-4fb0-82ac-fe3861ba60c8" name="Changes" comment="fix: jdk 23 set up">
       <change beforePath="$PROJECT_DIR$/homework-7/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/homework-7/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +22,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="hw6ex2clone" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -51,28 +45,31 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/1337p/IdeaProjects/swt-ws24-25/homework-7&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "hw9ex3",
+    "ignore.virus.scanning.warn.message": "true",
+    "last_opened_file_path": "C:/Users/Anna/IdeaProjects/swt-ws24-25/homework-7/screenshots",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Anna\IdeaProjects\swt-ws24-25\homework-7\screenshots" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\1337p\IdeaProjects\swt-ws24-25\homework-7\screenshots" />
     </key>
@@ -103,7 +100,7 @@
       <workItem from="1736081554642" duration="1863000" />
       <workItem from="1736085634804" duration="923000" />
       <workItem from="1736091823836" duration="640000" />
-      <workItem from="1736163955725" duration="2354000" />
+      <workItem from="1736163955725" duration="3967000" />
     </task>
     <task id="LOCAL-00001" summary="fix: refactoring and reinstalling maven">
       <option name="closed" value="true" />
@@ -121,7 +118,31 @@
       <option name="project" value="LOCAL" />
       <updated>1736082065650</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="fix: correct java version etc. feat: hw9ex2 screens + dockerfile?">
+      <option name="closed" value="true" />
+      <created>1736166537325</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1736166537325</updated>
+    </task>
+    <task id="LOCAL-00004" summary="feat: added cicd">
+      <option name="closed" value="true" />
+      <created>1736177303826</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1736177303826</updated>
+    </task>
+    <task id="LOCAL-00005" summary="fix: jdk 23 set up">
+      <option name="closed" value="true" />
+      <created>1736177512640</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1736177512640</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -141,6 +162,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="fix: refactoring and reinstalling maven" />
     <MESSAGE value="feat: hw9ex1" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: hw9ex1" />
+    <MESSAGE value="fix: correct java version etc. feat: hw9ex2 screens + dockerfile?" />
+    <MESSAGE value="feat: added cicd" />
+    <MESSAGE value="fix: jdk 23 set up" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix: jdk 23 set up" />
   </component>
 </project>
