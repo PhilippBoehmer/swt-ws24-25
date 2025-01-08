@@ -14,6 +14,11 @@ See PDFs and code for correction notes.
 | Homework 3  | 6.5/8    | 5.5/5.5  | 6.5/6.5 | -     | -     | 18.5/20  |
 | Homework 4  | 5/5      | 4.5/5    | 6/7     | 3/3   | -     | 18.5/20  |
 | Homework 5* | 5/5      | 5.5/7    | 3.5/8   | -     | -     | 12/20    |
+| Homework 6  | 0/8      | 8/8      | 4/4     | -     | -     | 12/20    |
+| Homework 7  | /4       | /4       | /8      | /4    | -     | /20      |
+| Homework 8  | -        | -        | -       | -     | -     | -        |
+| Homework 9  | /4       | /8       | /8      | -     | -     | /20      |
+| Homework 10 | /3       | /6       | /11     | -     | -     | /20      |
 
 *2 points deducted for not adhering to the formatting guidelines.
 
@@ -25,3 +30,5 @@ See PDFs and code for correction notes.
     - a) Relations between Student / Lecturer and User shall be inheritance relations, between Lecture and Course shall be an implements relation.
     - a) Relation between Course and ExerciseGroup cannot have two directions.
     - b) Relation between Course and ExerciseGroup is not implemented, -0.25 P.
+- **Homework 6:**
+  - Ex. 1: Missing, -8 P.
