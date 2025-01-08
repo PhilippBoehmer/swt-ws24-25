@@ -15,7 +15,7 @@ See PDFs and code for correction notes.
 | Homework 4  | 5/5      | 4.5/5    | 6/7     | 3/3   | -     | 18.5/20  |
 | Homework 5* | 5/5      | 5.5/7    | 3.5/8   | -     | -     | 12/20    |
 | Homework 6  | 0/8      | 8/8      | 4/4     | -     | -     | 12/20    |
-| Homework 7  | /4       | /4       | /8      | /4    | -     | /20      |
+| Homework 7  | 4/4      | 4/4      | 7/8     | 4/4   | -     | 19/20    |
 | Homework 8  | -        | -        | -       | -     | -     | -        |
 | Homework 9  | /4       | /8       | /8      | -     | -     | /20      |
 | Homework 10 | /3       | /6       | /11     | -     | -     | /20      |
@@ -32,3 +32,6 @@ See PDFs and code for correction notes.
     - b) Relation between Course and ExerciseGroup is not implemented, -0.25 P.
 - **Homework 6:**
   - Ex. 1: Missing, -8 P.
+- **Homework 7:**
+  - Ex. 3
+    - a) `@Autowired` should be used on the constructor, -1 P.
