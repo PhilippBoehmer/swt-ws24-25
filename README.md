@@ -18,7 +18,7 @@ See PDFs and code for correction notes.
 | Homework 7  | 4/4      | 4/4      | 7/8     | 4/4   | -     | 19/20    |
 | Homework 8  | -        | -        | -       | -     | -     | -        |
 | Homework 9  | 4/4      | 8/8      | 8/8     | -     | -     | 20/20    |
-| Homework 10 | /3       | /6       | /11     | -     | -     | /20      |
+| Homework 10 | 3/3      | 5/5      | 12/12   | -     | -     | 20/20    |
 
 *2 points deducted for not adhering to the formatting guidelines.
 
